@@ -1,0 +1,5 @@
+{
+  "glob": "**/*",
+  "input": "src/app/img",
+  "output": "/img/"
+}

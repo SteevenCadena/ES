@@ -1,0 +1,127 @@
+
+.main-title {
+	text-align: center;
+	font-size: 1.8rem;
+	font-weight: 800;
+	margin-top: 2.2rem;
+	margin-bottom: 0.7rem;
+	background: linear-gradient(90deg, #e75480 0%, #8f00ff 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	color: transparent;
+	letter-spacing: 0.04em;
+	text-shadow: 0 2px 12px rgba(143,0,255,0.10);
+}
+
+
+.second-title {
+	text-align: center;
+	font-size: 1rem;
+	font-weight: 800;
+	margin-top: 2.2rem;
+	margin-bottom: 0.7rem;
+	background: linear-gradient(90deg, #e75480 0%, #8f00ff 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	color: transparent;
+	letter-spacing: 0.04em;
+	text-shadow: 0 2px 12px rgba(143,0,255,0.10);
+}
+
+/* Modal styles */
+.modal-backdrop {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background: rgba(0,0,0,0.35);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 1000;
+}
+.modal {
+	background: #fff;
+	border-radius: 16px;
+	box-shadow: 0 4px 32px rgba(0,0,0,0.18);
+	padding: 2rem 2.5rem 2rem 2.5rem;
+	min-width: 320px;
+	max-width: 90vw;
+	position: relative;
+	text-align: center;
+}
+.modal-content p {
+	font-size: 1.2rem;
+	margin-bottom: 1.5rem;
+}
+.next-btn {
+	background: var(--vivid-pink, #e75480);
+	color: #fff;
+	border: none;
+	border-radius: 8px;
+	padding: 0.6rem 1.5rem;
+	font-size: 1rem;
+	cursor: pointer;
+	transition: background 0.2s;
+}
+.next-btn:hover {
+	background: var(--electric-violet, #8f00ff);
+}
+.close-btn {
+	position: absolute;
+	top: 0.7rem;
+	right: 1.2rem;
+	font-size: 2rem;
+	color: #888;
+	cursor: pointer;
+	font-weight: bold;
+	transition: color 0.2s;
+}
+.close-btn:hover {
+	color: #e75480;
+}
+.modal-btn-container {
+	display: flex;
+	justify-content: center;
+	margin: 2.5rem 0 2rem 0;
+}
+.open-modal-btn {
+	background: var(--electric-violet, #8f00ff);
+	color: #fff;
+	border: none;
+	border-radius: 8px;
+	padding: 0.8rem 2.2rem;
+	font-size: 1.1rem;
+	cursor: pointer;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+	transition: background 0.2s;
+}
+.open-modal-btn:hover {
+	background: var(--vivid-pink, #e75480);
+}
+
+.top-images {
+	display: flex;
+	justify-content: center;
+	gap: 2rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.top-images img {
+	width: 180px;
+	height: 120px;
+	object-fit: cover;
+	border-radius: 12px;
+	box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+	border: 2px solid #fff;
+	transition: transform 0.2s;
+}
+
+.top-images img:hover {
+	transform: scale(1.05);
+	box-shadow: 0 4px 24px rgba(0,0,0,0.18);
+}
